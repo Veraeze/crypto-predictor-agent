@@ -1,0 +1,18 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Data files
+data/
+output/
+
+# Machine learning models
+models/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
