@@ -37,46 +37,4 @@ crypto_predictor/
 └── README.md         # Project documentation
 ```
 
-## How to Run
-1. Clone the repository:
 
-```bash
-git clone https://github.com/YOUR_USERNAME/crypto-price-prediction-agent.git
-cd crypto-price-prediction-agent
-```
-
-2. Create and activate a virtual environment:
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-3. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Run the full pipeline:
-
-```bash
-python main.py
-```
-
-5. Check the `output/` folder for predicted next-day prices.
-
-## Example Output
-```
-Crypto,Next_Close_Price
-Bitcoin,85237.48
-Ethereum,3121.45
-Litecoin,142.12
-Ripple,0.85
-Cardano,1.45
-```
-
-## Notes
-- Ensure you have an active internet connection for data collection.
-- Large files (models, CSV data) are excluded from GitHub via `.gitignore`.
-- The pipeline is modular, allowing you to run data collection, training, or prediction independently if desired.
